@@ -1,4 +1,4 @@
-obj-m += mymodule.o
+obj-m += testmodule.o
 
 # Path to kernel build directory:
 KDIR := /lib/modules/$(shell uname -r)/build
